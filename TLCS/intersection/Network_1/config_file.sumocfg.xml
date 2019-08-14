@@ -1,0 +1,12 @@
+
+<configuration> 
+	<input> 
+		<net-file value="net_file.net.xml"/> 
+		<route-files value="random_trip.xml"/> 
+	</input> 
+
+	<time> 
+		<begin value="0"/> 
+		<end value="2000"/> 
+	</time> 
+</configuration>

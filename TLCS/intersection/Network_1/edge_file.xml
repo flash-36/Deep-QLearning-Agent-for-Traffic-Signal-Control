@@ -1,0 +1,26 @@
+<edges>
+	<edge from="n1" to="n3" id="1to3" type="3L"/>
+	<edge from="n3" to="n1" id="3to1" type="3L"/>
+	<edge from="n2" to="n4" id="2to4" type="3L"/> 
+	<edge from="n4" to="n2" id="4to2" type="3L"/> 
+	<edge from="n3" to="n4" id="3to4" type="3L"/> 
+	<edge from="n4" to="n3" id="4to3" type="3L"/> 
+	<edge from="n4" to="n11" id="4to11" type="3L"/> 
+	<edge from="n11" to="n4" id="11to4" type="3L"/> 
+	<edge from="n3" to="n9" id="3to9" type="3L"/> 
+	<edge from="n9" to="n3" id="9to3" type="3L"/> 
+	<edge from="n3" to="n5" id="3to5" type="3L"/> 
+	<edge from="n5" to="n3" id="5to3" type="3L"/> 
+	<edge from="n4" to="n6" id="4to6" type="3L"/> 
+	<edge from="n6" to="n4" id="6to4" type="3L"/> 
+	<edge from="n12" to="n6" id="6to12" type="3L"/> 
+	<edge from="n6" to="n12" id="12to6" type="3L"/> 
+	<edge from="n5" to="n6" id="5to6" type="3L"/> 
+	<edge from="n6" to="n5" id="6to5" type="3L"/> 
+	<edge from="n5" to="n10" id="5to10" type="3L"/> 
+	<edge from="n10" to="n5" id="10to5" type="3L"/> 
+	<edge from="n5" to="n7" id="5to7" type="3L"/> 
+	<edge from="n7" to="n5" id="7to5" type="3L"/> 
+	<edge from="n8" to="n6" id="6to8" type="3L"/> 
+	<edge from="n6" to="n8" id="8to6" type="3L"/> 
+</edges>

@@ -6,6 +6,12 @@ from __future__ import print_function
 
 import os
 import sys
+# sumo things - we need to import python modules from the $SUMO_HOME/tools directory
+if 'SUMO_HOME' in os.environ:
+    tools = os.path.join(os.environ['SUMO_HOME'], 'tools')
+    sys.path.append(tools)
+else:
+    sys.exit("please declare environment variable 'SUMO_HOME'")
 from sumolib import checkBinary
 import matplotlib.pyplot as plt
 import datetime
@@ -19,12 +25,6 @@ from TrafficGenerator import TrafficGenerator
 from Memory import Memory
 from Model import Model
 
-# sumo things - we need to import python modules from the $SUMO_HOME/tools directory
-if 'SUMO_HOME' in os.environ:
-    tools = os.path.join(os.environ['SUMO_HOME'], 'tools')
-    sys.path.append(tools)
-else:
-    sys.exit("please declare environment variable 'SUMO_HOME'")
 
 # PLOT AND SAVE THE STATS ABOUT THE SESSION
 def save_graphs(sim_runner, total_episodes, plot_path):
